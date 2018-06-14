@@ -52,7 +52,7 @@ title_separator          : "|"
 name                     : "Keenan"
 description              : "An open-source creative coding toolkit built in Rust that makes. It is reliable, highly portable and safe to use."
 url                      : "http://nannou.cc" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
-baseurl                  : "http://nannou.cc" # the subpath of your site, e.g. "/blog"
+baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "madkeen/nannou-org/nannou_website" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 # breadcrumbs            : false # true, false (default)
