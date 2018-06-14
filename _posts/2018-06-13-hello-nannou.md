@@ -3,8 +3,8 @@ layout: post
 title:  "Hello Nannou!"
 date:  2018-06-13 03:54:59 +1000
 ---
-<!--
-Welcome to the initial release of Nannou!
+
+Welcome to the initial release of Nannou!!
 
 Nannou is an open source creative coding framework built in Rust for artists, hackers, designers and devs to express themselves with simple, fast, reliable, portable code.
 
@@ -61,4 +61,4 @@ We'll leave you with some of recent works that we have created using Nannou.
 
   [![Spatial Audio Server](https://camo.githubusercontent.com/49c023f616f3aa81b381d6cd24582c17e79309b2/68747470733a2f2f696d6775722e636f6d2f3271584a746a632e706e67)](https://github.com/museumsvictoria/spatial_audio_server)
 
-*With love and lazers from Mitch, Josh, Keenan & Tom | The Nannou Organisation <3* -->
+*With love and lazers from Mitch, Josh, Keenan & Tom | The Nannou Organisation <3*
