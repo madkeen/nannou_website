@@ -1,7 +1,7 @@
 ---
 layout: single
-title:  "Hello Nannou!"
-date:  2018-06-13 03:54:59 +1000
+title: 'Hello Nannou!'
+date: 2018-06-13 03:54:59 +1010
 ---
 
 Welcome to the initial release of Nannou!
