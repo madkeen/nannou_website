@@ -1,17 +1,18 @@
 ---
-layout: home
-title: nannou.cc | An open-source creative-coding toolkit for Rust
+layout: splash
+classes:
+ - landing
 
 ---
+
 <div class="blurb">
-
 	<h1>A new creative-coding toolkit that enables easy access to high-performance graphics and audio.</h1>
-	<h2><b>Nannou</b> is a free, open-source library built in <b><a href="https://www.rust-lang.org/">Rust</a></b>, which aims to make creative coding easier and more accessible. It is reliable, highly portable and safe to use.</h2>
-
-	<!-- </br>
-			<a class="btn" href="/download" role="button">Download</a>
-	</br>
-	</br>
-			<a class="btn" href="https://github.com/nannou-org/nannou" role="button">View on Github</a> -->
-
+	<h3><b>Nannou</b> is a free, open-source library built in <b><a href="https://www.rust-lang.org/">Rust</a></b>, which aims to make creative coding easier and more accessible. It is reliable, highly portable and safe to use.</h3>
 </div>
+
+    <h2>News</h2>
+  {% for post in site.posts %}
+      <h3 href="{{ post.url }}">{{ post.title }}</h3>
+      <span class="date">{{ post.date | date_to_long_string: "ordinal" }}
+      {{ post.content }}
+  {% endfor %}
