@@ -4,7 +4,7 @@ title:  "Hello Nannou!"
 date:  2018-06-13 03:54:59 +1000
 ---
 
-Welcome to the initial release of Nannou!!
+Welcome to the initial release of Nannou!
 
 Nannou is an open source creative coding framework built in Rust for artists, hackers, designers and devs to express themselves with simple, fast, reliable, portable code.
 
