@@ -17,26 +17,25 @@ body {
   background-color: #212121;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
+h1,h2,h3,h4,h5,h6 {
   font-family: 'Inter UI', sans-serif;
   color: #f4f4f4;
 }
 
 h1 {
   font-size: 2.5rem;
+  font-weight: 100;
+
 }
 
 h2 {
   font-size: 2rem;
+  font-weight: 300;
 }
 
 h3 {
   font-size: 1.75rem;
+  font-weight: 300;
 }
 
 h4 {
@@ -49,4 +48,13 @@ h5 {
 
 h6 {
   font-size: 1rem;
+}
+
+a {
+    text-decoration: underline;
+    color: #FF8A66!important;
+}
+a:hover {
+    text-decoration: none;
+    color: #FE5722!important;
 }

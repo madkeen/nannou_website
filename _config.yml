@@ -47,10 +47,10 @@ minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt"
 
 # Site Settings
 locale                   : "en-US"
-title                    : "nannou.cc | A creative coding toolkit in Rust"
+title                    : # "nannou.cc | A creative coding toolkit in Rust"
 title_separator          : "|"
-name                     : "Keenan"
-description              : "An open-source creative coding toolkit built in Rust that makes. It is reliable, highly portable and safe to use."
+name                     : ""
+description              : # "An open-source creative coding toolkit built in Rust that makes. It is reliable, highly portable and safe to use."
 url                      : "http://nannou.cc" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "madkeen/nannou-org/nannou_website" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
