@@ -3,25 +3,27 @@
 ---
 
 @charset "utf-8";
-
+@import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
+@import "minimal-mistakes"; // main partials
+@import "font-inter-ui";
 
 html {
-  margin: 0;
-  padding: 0;
-  min-height: auto !important;
+  font-family: 'Inter UI', sans-serif;
   font-size: 18px;
 }
 
 body {
-  background: #212121;
-  color: #f4f4f4;
+  font-family: 'Inter UI', sans-serif;
+  background-color: #212121;
 }
+
 h1,
 h2,
 h3,
 h4,
 h5,
 h6 {
+  font-family: 'Inter UI', sans-serif;
   color: #f4f4f4;
 }
 
@@ -48,9 +50,3 @@ h5 {
 h6 {
   font-size: 1rem;
 }
-
-
-@import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
-@import "minimal-mistakes"; // main partials
-
-@import "font-inter-ui";
