@@ -15,7 +15,7 @@
 # in the templates via {{ site.myvariable }}.
 
 email: contact@nannou.cc
-github_username:  madkeen
+github_username:  /nannou-org/nannou
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
