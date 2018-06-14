@@ -1,0 +1,41 @@
+<header id="masthead">
+  <div class="inner">
+    <div class="title-area">
+      <nav id="site-nav" class="greedy-nav">
+      <h1 class="site-title">
+        <a href="/">
+          <svg class="site-logo" width="35.981px" height="49px" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 211.02 287.37">
+            <title>logo</title>
+            <path d="M812.88,106.34q26.43,0,34.53,7.46t8.1,31.33v223q0,14.07-4.26,19.83t-14.5,5.75q-9.37,0-13.21-6t-3.84-20v-194q0-20-6-25.58t-29-5.54H713.55q-19.6,0-26.22,5.12t-6.6,20.89v15.77q0,12.8,1.27,19.18,1.71,8.53,10.24,11.94l5.11,2.13q8.52,3.42,11.3,9.59t2.77,20.68v101q0,24.74-6.61,33.25t-26.64,8.53q-21.33,0-28.14-9.81-5.53-7.25-5.54-33.25V149.82q0-27.7,8.53-35.81,8.09-7.67,31.54-7.67Z" transform="translate(-644.49 -106.34)" style="fill:#f4f4f4"/>
+          </svg>
+        <span>{{ site.title }}</span>
+      </a>
+      </h1>
+      <ul class="visible-links">
+        {% for link in site.data.navigation.main %}
+          {% if link.url contains 'http' %}
+            {% assign domain = '' %}
+          {% else %}
+            {% assign domain = site.url | append: site.baseurl %}
+          {% endif %}
+          <li class="masthead__menu-item">
+            <a href="{{ domain }}{{ link.url }}" {% if link.description %}title="{{ link.description }}"{% endif %}>{{ link.title }}</a>
+          </li>
+        {% endfor %}
+      </ul>
+      {% if site.search == true %}
+      <button class="search__toggle" type="button">
+        <svg class="icon" width="16" height="16" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 15.99 16">
+          <path d="M15.5,13.12L13.19,10.8a1.69,1.69,0,0,0-1.28-.55l-0.06-.06A6.5,6.5,0,0,0,5.77,0,6.5,6.5,0,0,0,2.46,11.59a6.47,6.47,0,0,0,7.74.26l0.05,0.05a1.65,1.65,0,0,0,.5,1.24l2.38,2.38A1.68,1.68,0,0,0,15.5,13.12ZM6.4,2A4.41,4.41,0,1,1,2,6.4,4.43,4.43,0,0,1,6.4,2Z" transform="translate(-.01)"></path>
+        </svg>
+      </button>
+      {% endif %}
+      <button class="greedy-nav__toggle hidden" type="button">
+        <span class="visually-hidden">{{ site.data.ui-text[site.locale].menu_label | default: "Toggle Menu" }}</span>
+        <div class="navicon"></div>
+      </button>
+      <ul class="hidden-links hidden"></ul>
+    </nav>
+    </div>
+  </div>
+</header>
