@@ -19,7 +19,7 @@ github_username:  madkeen
 
 # Build settings
 markdown: kramdown
-remote_theme: "mmistakes/minimal-mistakes"
+theme: minimal-mistakes-jekyll
 plugins:
   - jekyll-feed
 
